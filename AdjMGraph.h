@@ -9,6 +9,7 @@
 #define MaxVertices 50
 #define MaxWeight 10000
 
+//邻接矩阵的存储方法
 typedef struct {
     SeqList Vertices ;
     int edge[MaxVertices][MaxVertices] ;

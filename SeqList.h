@@ -9,7 +9,7 @@
 
 typedef int DataType ;
 
-
+//静态指针：伪指针
 typedef struct {
     DataType list[MaxSize] ;
     int size ;
